@@ -1,0 +1,113 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <style type="text/css">
+        h1 {
+          text-align: center;
+        }
+        body {
+          background-image: url("rain.jpg");
+		  background-repeat: no;
+        }
+        #menu {
+          margin: auto;
+          width: 90%;
+          background-color: lightblue;
+		  border-radius:20px;
+		  opacity:0.6;
+		  transition:0.3s;
+        }
+		#menu:hover {opacity:1}
+        
+		
+		
+		.menu_list {
+          display: inline-block;
+          margin: 10px;
+          padding: 5px;
+          border: 1px solid lightgray;
+          border-left: 1px solid black;
+		  opacity:0.6;
+		  transition:0.3s;
+        }
+        .menu_list:hover{opacity:1}
+        
+        #left_menu {
+          margin: 10px;
+          margin-left: 5%;
+          float: left;
+          width: 18%;
+          height: 500px;
+          border-radius: 20px;
+          background-color: lightgray;
+		  opacity:0.6;
+		  transition:0.3s;
+		  
+        }
+		#left_menu:hover{opacity:1}
+    
+        #content {
+          border-radius: 20px;
+          float: right;
+          width: 70%;
+          margin: 10px;
+          margin-right: 5%;
+          background-color: gray;
+          height: 500px;
+		  opacity:0.6;
+		  transition:0.3s;
+        }
+		#content:hover{opacity:1}
+		ul{
+		list-style-type:circle;
+		margin: 10px;
+		padding:5px;
+		boder:1px solid #42b3f4;
+		border-left: 1px solid;
+		}
+		ul:hover{
+		border-bottom:1px dashed #4f90f9;
+		background-color: lightblue;
+		}
+		
+      </style>
+    </head>
+    <body>
+      <div id="main_app" style="display: block;">
+        <h1>Blog</h1>
+        <div id="menu">
+          <div class="menu_list">
+            Home
+          </div>
+          <div class="menu_list">
+            Login
+          </div>
+          <div class="menu_list">
+            Register
+          </div>
+        </div>
+        <div class="content_zone">
+          <div id="left_menu">
+		  <ul>
+            <li><p>  Politic Extern</p></li>
+		  </ul>
+          </div>
+          <div id="content">
+            <h2>In Pictures: Palestinians rally at 'Great March of Return' in Gaza</h2>
+			The protests by Gaza residents near their sealed border are part of a campaign to break a decade-long blockade of the territory imposed by Israel and Egypt after the Hamas took control of Gaza in 2007.
+
+            On Monday, the demonstrations will also show their unhappiness over the inauguration of the US embassy, which comes five months after Trump recognised Jerusalem as Israel's capital.
+
+            Another large-scale protest is planned for Tuesday, when Palestinians mark their "Nakba," or catastrophe, referring to their mass uprooting during the Mideast war over Israel's 1948 creation. 
+
+            Hundreds of thousands of Palestinians were driven out or fled homes in what is now Israel. More than two-thirds of Gaza residents are descendants of refugees that fled in 1948.
+			<center><img src="jihad.jpg" width="500" height="350"  ></center>
+          </div>
+        </div>
+      </div>
+      <div id="loading" style="display: none;">
+        Please wait, page is loading...
+      </div>
+    </body>
+    </html>
